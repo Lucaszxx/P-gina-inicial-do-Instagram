@@ -1,10 +1,12 @@
-#celulare {
+/* Celular preto da direita*/
+#celulard {
     position: absolute;
     width: 55%;
     height: 111%;
     margin-left: 90px;
     margin-top: -44px;
 }
+/* Celular branco da esquerda*/
 #celular {
     position: absolute;
     width: 55%;
@@ -12,12 +14,14 @@
     margin-top: -55px;
     margin-left: -98px;
 }
+/*Div onde os dois celulares estão colocados juntos */
 #celulares {
     margin-left: 35px;
 }
 body {
     background-color: rgb(255, 255, 255);
 }
+/*Div onde estão os elementos de login, remover contas e logo */
 #divlogo {
     border: 1px solid rgb(197, 197, 197);
     border-radius: 1px;
@@ -33,15 +37,17 @@ body {
     display: inline-block;
 }#logo {
     margin-top: 20px;
-}
+}/*Logo donwload Android */
 #logoG {
     height: 42px;
     width: 144px;
 }
+/*logo download IOS */
 #logoA {
     height: 42px;
     width: 144px;
 }
+/*Div com os dois downloads juntos */
 #baixar {
     position: absolute;
     width: 300px;
@@ -49,9 +55,11 @@ body {
     margin-top: 490px;
     text-align: center;
 }
+/*Links*/
 a {
     text-decoration: none;
 }
+/*Botão prosseguir/continuar */
 #prosseguir {
     border: solid 2px rgb(0, 153, 255) ;
     border-radius: 4px;
@@ -68,7 +76,7 @@ a {
     color: rgb(255, 255, 255);
 
 }
-
+/*Foto de perfil */
 #perfilf {
     position: absolute;
     width: 115px;
@@ -78,36 +86,43 @@ a {
     margin-left: -165px;
     margin-top: 82px;
 }
+/*Botão trocar de conta */
 #tconta {
     margin-top: 200px;
     color: rgba(0, 110, 255, 0.829);
 }
+/*Botão remover conta */
 #dconta {
     margin-top: 205px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 90%;
     font-style: italic;
 }
+/*Trocar de conta ou cadastrar-se */
 #removerc, p {
     margin-top: 10px;
     color: rgb(108, 134, 125);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 90%;
 }
+/*Div com elementos Trocar de conta/Cadastrar-se */
 #removerdiv {
     border: solid 1px rgba(197, 197, 197, 0.849);
     margin-top: 40px;
     width: 300px;
     border-radius: 2px;
 }
+/*Texto em azul Trocar de conta */
 #final1 {
     color: rgba(0, 110, 255, 0.829);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
+/*Texto em azul Cadastrar-se */
 #final2 {
     color: rgba(0, 110, 255, 0.829);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
+/*Cor texto baixar aplicativo*/
 #bairn {
     color: black;
 }
